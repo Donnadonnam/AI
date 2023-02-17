@@ -1,35 +1,32 @@
 # Samples, Reference Architectures & Best Practices
 
-This repository is meant to organize Microsoft's Open Source AI based repositories.
+#
 
 # Keywords
-batch scoring, realtime scoring, model training, MLOps, Azure Machine Learning, computer vision, natural language processing, recommenders
+
+#
 
 ## Table of contents
-1. [Getting Started](#Getting-Started)
-2. [AI100 - Samples](#ai100)
-3. [AI200 - Reference Architectures](#ai200)
-4. [AI300 - Best Practices](#ai300)
-6. [Contributing](#Contributing)
+
+# 2. [AI100 - Samples](#ai100)
+
+# 4. [AI300 - Best Practices](#ai300)
+
+#
 
 # Getting Started <a name="Getting-Started"></a>
-This repository is arranged as submodules so you can either pull all the tutorials or simply the ones you want. 
-To pull all the tutorials run:
 
-```bash
-git clone --recurse-submodules https://github.com/microsoft/ai
+# To pull all the tutorials run
+
+# git clone --recurse-submodules <https://github.com/microsoft/ai>
+
 ```
 
-if you have git older than 2.13 run:
+# 
+# ```
 
-```bash
-git clone --recursive https://github.com/microsoft/ai.git
-```
-
-To pull a single submodule (e.g. DeployDeepModelKubernetes) run:
-```
-git clone https://github.com/microsoft/ai
-cd ai
+# ```
+# cd ai
 git submodule init submodules/DeployDeepModelKubernetes
 git submodule update
 ```
